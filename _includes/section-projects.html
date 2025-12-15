@@ -7,6 +7,19 @@
           <h3>{{project.name}}</h3>
         </div>
         <p class="project-desc">{{project.descr}}</p>
+        {% if project.media %}
+        <div class="project-media">
+          {% assign media_ext = project.media | split: '.' | last | downcase %}
+          {% if media_ext == 'mp4' or media_ext == 'webm' %}
+          <video autoplay muted loop playsinline>
+            <source src="{{project.media}}" type="video/{{media_ext}}">
+            Your browser does not support the video tag.
+          </video>
+          {% else %}
+          <img src="{{project.media}}" alt="{{project.name}}" loading="lazy">
+          {% endif %}
+        </div>
+        {% endif %}
         {% if project.demo %}
           <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
             Demo

@@ -71,6 +71,7 @@ a {
   display: inline-block;
   padding: 0.125rem 0.125rem;
   transition: all 0.2s ease-in-out;
+  width: fit-content;
 
   &:hover {
     box-shadow: inset 0 -2rem 0 0 $primary-color;
@@ -597,6 +598,32 @@ a {
   padding: 0.5rem;
 }
 
+/* Custom Projects Layout Full Width */
+.project.neumorphism-card {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+}
+
+.project-media {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.project-media video,
+.project-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.project-content {
+  width: 100%;
+}
 /* Contact Card */
 
 .contact-icons {
@@ -815,10 +842,9 @@ a {
 
   .projects-wrapper {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
     > * {
-      width: 44%;
+      width: 100%;
     }
   }
 
@@ -862,7 +888,7 @@ a {
 
   .projects-wrapper {
     > * {
-      width: 45%;
+      width: 100%;
     }
   }
 }
@@ -892,7 +918,7 @@ a {
 
   .projects-wrapper {
     > * {
-      width: 46%;
+      width: 100%;
     }
   }
 }

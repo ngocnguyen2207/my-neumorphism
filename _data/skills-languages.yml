@@ -20,23 +20,8 @@
 - name: CSS3
   weight: 3
 
-- name: SASS
+- name: C
   weight: 3
 
 - name: Java
   weight: 1
-
-- name: Dart
-  weight: 1
-
-- name: Swift
-  weight: 1
-
-- name: Kotlin
-  weight: 1
-
-- name: C++
-  weight: 2
-
-- name: Ruby
-  weight: 2

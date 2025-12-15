@@ -14,10 +14,7 @@
 - name: Scrum
   weight: 3
 
-- name: Travis CI
-  weight: 1
-
-- name: Jenkins
+- name: Docker
   weight: 1
 
 - name: Chrome DevTools
@@ -26,8 +23,8 @@
 - name: npm
   weight: 2
 
-- name: gulp
-  weight: 4
+- name: Balsamiq Mockups
+  weight: 1
 
 - name: VS Code
   weight: 3
