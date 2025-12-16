@@ -39,7 +39,6 @@ COPY --from=node-builder /app .
 # Build Jekyll site
 RUN bundle exec jekyll build
 
-
 # Final stage - nginx to serve static files
 FROM nginx:alpine
 
