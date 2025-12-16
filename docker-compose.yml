@@ -13,10 +13,10 @@ services:
       - proxy-network
     environment:
       # Virtual host for nginx-proxy
-      - VIRTUAL_HOST=api.${DOMAIN_NAME}
+      - VIRTUAL_HOST=${DOMAIN_NAME},www.${DOMAIN_NAME}
       - VIRTUAL_PORT=${VIRTUAL_PORT}
       # Let's Encrypt settings
-      - LETSENCRYPT_HOST=api.${DOMAIN_NAME}
+      - LETSENCRYPT_HOST=${DOMAIN_NAME},www.${DOMAIN_NAME}
       - LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
       # Timezone
       - TZ=Europe/Berlin

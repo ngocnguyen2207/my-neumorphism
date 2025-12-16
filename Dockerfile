@@ -1,5 +1,5 @@
 # Multi-stage build for Jekyll portfolio
-FROM node:20-alpine AS node-builder
+FROM node:24-alpine AS node-builder
 
 WORKDIR /app
 
