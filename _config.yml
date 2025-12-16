@@ -69,7 +69,7 @@ projects_title: Projects
 # > setting this to false, will omit your public projects on github
 show_os_projects: true
 # os_projects_title: The will be displayed as the title of your open source projects
-os_projects_title: 
+os_projects_title: Open Source Projects
 
 # CONTACT SECTION
 # show_contact_card:
@@ -77,7 +77,7 @@ os_projects_title:
 # > setting this to false, will omit the Contact section
 show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
-contact_title: Contact
+contact_title: Contact Me
 # contact_description: This will be displayed under the title.
 contact_description: Feel free to get in touch if you’d like to discuss a project, collaboration, or new opportunities. I’m always open to connecting and exchanging ideas, just drop me a message, and I’ll get back to you.
 

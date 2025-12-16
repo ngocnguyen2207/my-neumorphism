@@ -131,6 +131,11 @@ var serve = gulp.series(compile, jekyll, browserSyncServe);
 var watch = gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
 
 /**
+ * Build task for production (compile assets only, no server/watch)
+ */
+gulp.task('build', compile);
+
+/**
  * Default task, running just `gulp` will compile the sass,
  * compile the Jekyll site, launch BrowserSync & watch files.
  */

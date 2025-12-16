@@ -11,14 +11,14 @@
 - name: JavaFX
   weight: 3
 
-- name: React
+- name: ReactJS
+  weight: 5
+
+- name: NodeJS
   weight: 4
 
-- name: Node
-  weight: 1
-
 - name: Flask
-  weight: 2
+  weight: 4
 
 - name: Express
   weight: 3
@@ -27,7 +27,10 @@
   weight: 1
 
 - name: Prisma
-  weight: 2
+  weight: 3
+
+- name: SQLAlchemy
+  weight: 4
 
 - name: Socket.io
-  weight: 4
+  weight: 2

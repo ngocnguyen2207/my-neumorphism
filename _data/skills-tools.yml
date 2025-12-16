@@ -11,17 +11,29 @@
 - name: Bash
   weight: 3
 
+- name: Zsh
+  weight: 4
+
+- name: Shell Script
+  weight: 2
+
 - name: Scrum
   weight: 3
 
 - name: Docker
-  weight: 1
+  weight: 5
+
+- name: Maven
+  weight: 3
+
+- name: Gradle
+  weight: 3
 
 - name: Chrome DevTools
   weight: 2
 
 - name: npm
-  weight: 2
+  weight: 3
 
 - name: Balsamiq Mockups
   weight: 1
@@ -30,4 +42,7 @@
   weight: 3
 
 - name: Postman
-  weight: 4
+  weight: 2
+
+- name: Github Actions
+  weight: 2

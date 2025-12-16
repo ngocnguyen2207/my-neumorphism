@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio
+    restart: unless-stopped
+    expose:
+      - "${VIRTUAL_PORT}"  # Expose to nginx-proxy, not to host
+    networks:
+      - proxy-network
+    environment:
+      # Virtual host for nginx-proxy
+      - VIRTUAL_HOST=api.${DOMAIN_NAME}
+      - VIRTUAL_PORT=${VIRTUAL_PORT}
+      # Let's Encrypt settings
+      - LETSENCRYPT_HOST=api.${DOMAIN_NAME}
+      - LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
+      # Timezone
+      - TZ=Europe/Berlin
+
+networks:
+  proxy-network:
+    external: true

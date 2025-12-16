@@ -16,27 +16,40 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline-side: right
-
-- title: Weiterbildung Comcave College
+- title: AWS Certified Cloud Practitioner and AWS Certified Solutions Architect Associate
   title-url: https://www.comcave.de/
-  date: seit Nov 2025
-  subtitle: Weiterbildung im Bereich Informationssicherheit und AWS Cloud, IT-Sicherheitsbeauftragter - TÜV Rheinland geprüfter Qualifikation, AWS Certified Solutions Architect Associate (in Vorbereitung)
+  date: since Nov 2025
+  subtitle: Further education in AWS Cloud Fundamentals and basic cloud architecture concepts.
   tags:
-    - tag: ISO 27001
-    - tag: IT-Grundschutz
-    - tag: AWS
-  timeline-side: left
-
-- title: HTW Dresden
-  title-url: https://www.htw-dresden.de/studium/vor-dem-studium/studienangebot/master-angewandte-informatik-wise
-  date: Mär 2025 - Aug 2025
-  subtitle: M.Sc. Data Science (ohne Abschluss)
+    - tag: EC2
+    - tag: S3
+    - tag: RDS
+    - tag: VPC
+    - tag: IAM
   timeline-side: right
 
-- title: SCALE
+- title: IT Security Officer
+  title-url: https://www.certipedia.com/quality_marks/0000088069?locale=de
+  date: Nov 2025 - Dec 2025
+  subtitle: Further education in information security with TÜV Rheinland certified qualification
+  tags:
+    - tag: ISO 27001
+    - tag: BSI Standards
+    - tag: IT-Grundschutz
+    - tag: System Security
+    - tag: Network Security
+  timeline-side: left
+
+- title: University of Applied Sciences Dresden
+  title-url: https://www.htw-dresden.de/studium/vor-dem-studium/studienangebot/master-angewandte-informatik-wise
+  date: Mar 2025 - Aug 2025
+  subtitle: M.Sc. Data Science (without degree)
+  timeline-side: right
+
+- title: SCALE GmbH
   title-url: https://www.scale.eu/
-  date: Mai 2024 - Okt 2024
-  subtitle: Fullstack-Entwickler
+  date: May 2024 - Oct 2024
+  subtitle: Fullstack Developer
   tags:
     - tag: Flask
     - tag: ReactJS
@@ -45,19 +58,21 @@
     - tag: GitLab
   timeline-side: left
 
-- title: CERSS
+- title: CERSS GmbH
   title-url: https://cerss.com/
   date: Nov 2019 - Apr 2024
-  subtitle: Softwareentwickler, Praktikum und Werkstudent
+  subtitle: Software Developer, Internship and Working Student
   tags:
     - tag: Java
     - tag: JavaFX
+    - tag: Eclipse Modeling Framework
     - tag: Maven
     - tag: VBA
+    - tag: WordPress
   timeline-side: right
 
-- title: HTW Dresden
+- title: University of Applied Sciences Dresden
   title-url: https://www.htw-dresden.de/studium/vor-dem-studium/studienangebot/bachelor-wirtschaftsinformatik
   date: 2016 - 2021
-  subtitle: B.Sc. Wirtschaftsinformatik 
+  subtitle: B.Sc. Business Informatics 
   timeline-side: left
