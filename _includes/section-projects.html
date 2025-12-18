@@ -7,16 +7,20 @@
           <h3>{{project.name}}</h3>
         </div>
         <p class="project-desc">{{project.descr}}</p>
-        {% if project.media %}
+        {% if project.video-mp4 or project.video-webm or project.image %}
         <div class="project-media">
-          {% assign media_ext = project.media | split: '.' | last | downcase %}
-          {% if media_ext == 'mp4' or media_ext == 'webm' %}
-          <video autoplay muted loop playsinline>
-            <source src="{{project.media}}" type="video/{{media_ext}}">
+          {% if project.video-mp4 or project.video-webm %}
+          <video autoplay muted loop playsinline preload="auto" webkit-playsinline>
+            {% if project.video-mp4 %}
+            <source src="{{project.video-mp4}}" type="video/mp4">
+            {% endif %}
+            {% if project.video-webm %}
+            <source src="{{project.video-webm}}" type="video/webm">
+            {% endif %}
             Your browser does not support the video tag.
           </video>
-          {% else %}
-          <img src="{{project.media}}" alt="{{project.name}}" loading="lazy">
+          {% elsif project.image %}
+          <img src="{{project.image}}" alt="{{project.name}}" loading="lazy">
           {% endif %}
         </div>
         {% endif %}
@@ -26,7 +30,7 @@
           </a>
         {% endif %}
         {% if project.tags %}
-          <div class="tag-wrapper">
+          <div class="tag-wrapper"> 
             {% for tag in project.tags %}
               <span class="tag neumorphism-card">{{tag.tag}}</span>
             {% endfor %}
