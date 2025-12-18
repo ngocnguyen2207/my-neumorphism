@@ -18,6 +18,7 @@
 - name: WebApp Restaurant Reservation Platform with Real-time Dashboard
   descr: "This application is a modern, web-based platform for managing restaurant reservations with real-time overview of table availability and operational metrics. <br><br>The goal was to develop a scalable and extensible full-stack solution that optimizes both operational workflows and user experience.<br>The architecture is based on a modular monolith with clearly separated backend modules to support future functional extensions. The backend provides a RESTful API with JWT-based authentication and role-based access control (RBAC) and uses WebSockets (Socket.io) for real-time updates in the dashboard."
   demo: https://restaurant-demo.de/nd-admin/
+  media: /assets/projects/namdinh.webm
   tags:
     - tag: PostgreSQL
     - tag: Express
@@ -29,7 +30,7 @@
 
 - name: GUI Planning Tool for Electronic Interlocking Systems (ESTW)
   descr: "Development of an interactive drag-and-drop GUI for visual route planning in electronic interlocking systems (ESTW) for technical validation in a safety-critical environment.<br><br>The application is based on graph-based modeling (nodes/edges, pathfinding) to generate structured data for interlocking systems. Modular Java architecture with MVC, JPMS, and model-based development (EMF/UML, code generation), implemented with JavaFX, Eclipse Modeling Framework and XML."
-  media: /assets/projects/ltg.webp
+  media: /assets/projects/ltg.webm
   tags:
     - tag: Java
     - tag: JavaFX

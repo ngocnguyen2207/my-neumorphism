@@ -16,9 +16,9 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline-side: right
-- title: AWS Certified Cloud Practitioner and AWS Certified Solutions Architect Associate
+- title: AWS Certified Cloud Practitioner and Solutions Architect Associate
   title-url: https://www.comcave.de/
-  date: since Nov 2025
+  date: since Dec 2025
   subtitle: Further education in AWS Cloud Fundamentals and basic cloud architecture concepts.
   tags:
     - tag: EC2
@@ -26,11 +26,13 @@
     - tag: RDS
     - tag: VPC
     - tag: IAM
+    - tag: Lambda
+    - tag: API Gateway
   timeline-side: right
 
 - title: IT Security Officer
   title-url: https://www.certipedia.com/quality_marks/0000088069?locale=de
-  date: Nov 2025 - Dec 2025
+  date: Oct 2025 - Dec 2025
   subtitle: Further education in information security with TÜV Rheinland certified qualification
   tags:
     - tag: ISO 27001
@@ -43,7 +45,7 @@
 - title: University of Applied Sciences Dresden
   title-url: https://www.htw-dresden.de/studium/vor-dem-studium/studienangebot/master-angewandte-informatik-wise
   date: Mar 2025 - Aug 2025
-  subtitle: M.Sc. Data Science (without degree)
+  subtitle: M.Sc. Data Science (coursework)
   timeline-side: right
 
 - title: SCALE GmbH
@@ -73,6 +75,6 @@
 
 - title: University of Applied Sciences Dresden
   title-url: https://www.htw-dresden.de/studium/vor-dem-studium/studienangebot/bachelor-wirtschaftsinformatik
-  date: 2016 - 2021
+  date: Oct 2017 - Feb 2022
   subtitle: B.Sc. Business Informatics 
   timeline-side: left
