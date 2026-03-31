@@ -18,13 +18,13 @@ url: "https://www.sudo-ngocnguyen.de"
 username: Ngoc Nguyen
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Fullstack Developer
+typing_text: Software Developer
 # email: Your E-Mail address for the email button.
 email: ngoc.nguyen2207@gmail.com
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
-github_username: ronierichardman
+github_username: ngocnguyen2207
 codepen_username: 
 dev_username: 
 linkedin_username: 
@@ -88,7 +88,7 @@ contact_description: Feel free to get in touch if you’d like to discuss a proj
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: ronierichardman/my-neumorphism
+repository: ngocnguyen2207/my-neumorphism
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
@@ -105,6 +105,7 @@ projects:
     forks: true
     # projects: A list of the repository names you want to exclude from the listing.
     projects:
+    - ngocnguyen2207
     # - repo1-to-be-excluded
     # - repo2-to-be-excluded
 

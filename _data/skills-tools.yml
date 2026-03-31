@@ -46,3 +46,6 @@
 
 - name: Github Actions
   weight: 2
+
+- name: GitLab
+  weight: 1
